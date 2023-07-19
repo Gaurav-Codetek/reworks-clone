@@ -13,6 +13,10 @@
     max-width: 1140px;
 }
 
+.mobileNav{
+    display: none;
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -169,6 +173,7 @@ nav{
     font-weight: 600;
     color: #FFF;
     line-height: 75px;
+    padding-bottom: 2rem;
 }
 
 .mastName p{
@@ -177,4 +182,260 @@ nav{
     font-family: 'Poppins';
     font-weight: 400;
     color: #FFF;
+    padding-bottom: 1rem;
+}
+
+.mastButton{
+    padding: 2rem 0px;
+}
+
+.mastButton a{
+    text-decoration: none;
+    color: rgb(189, 50, 211);
+    padding: 15px 25px;
+    line-height: 1.25em;
+    font-weight: 580;
+    border: 2px solid #FFF;
+    background: #FFF;
+    border-radius: 13px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.mastButton > .btn2{
+    background: transparent;
+    color: white;
+    margin-left: 30px;
+}
+
+section{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.mastName{
+    width: 57%;
+}
+
+
+
+
+@media only screen and (max-width: 1090px){
+    .logo{
+        width: 20%;
+    }
+
+    .menu{
+        width: 80%;
+        flex-basis: content;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .mastImg{
+        width: 92%;
+    }
+
+    .mastImg img{
+        max-height: 55px;
+    }
+
+    .topNav{
+        display: flex;
+    }
+
+    .ham{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 1px solid #99a3fe;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+
+    .bar1, .bar2, .bar3{
+        width: 22px;
+        height: 2px;
+        border-radius: 5px;
+        background-color: #05356c;
+        margin: 3px;
+    }
+
+    .mobileNav{
+        display: block;
+        background-color: #7682F4;
+        padding-top: 30px;
+        height: 120px;
+        transition: height 0.8s;
+    }
+
+    .nav-resp{
+        height: 400px;
+    }
+
+    .inner-nav-resp{
+        height: auto;
+    }
+
+    .mobileMenu{
+        opacity: 0;
+        display: none;
+    }
+
+    .opac{
+        opacity:1;
+        display: block;
+    }
+
+    .mobileMenu a{
+        padding-bottom: 15px;
+        font-size: 16px;
+        text-decoration: none;
+        color: #FFF;
+        font-family: 'Poppins';
+    }
+
+    .mobileMenu ul{
+        list-style: none;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .mobileMenu a{
+        display: flex;
+        position: relative;
+    }
+    
+    .mobileMenu a:hover{
+        color: #fcb900;
+    }
+
+    .menuArrow{
+        top: 0;
+        right: 0;
+        position: absolute;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: end;
+        margin: auto;
+        padding:2px 4px;
+        border-radius: 2px;
+    }
+
+    .btn a{
+        padding-bottom: 10px;
+    }
+
+    .demo{
+        justify-content: start;
+    }
+
+    .innerdrop{
+        background-color: #FFF;
+        border-radius: 13px;
+        padding: 10px;
+        font-family: 'Poppins';
+        display: none;
+    }
+
+    .inner-resp{
+        display: block;
+    }
+
+    .innerdrop ul{
+        padding-top: 0px;
+    }
+
+    .innerdrop ul li{
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .useCases{
+        position: relative;
+    }
+
+    .innermenuArrow{
+        position:absolute;
+        top: 0px;
+        right: 0;
+        border: 1px solid #000;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 4px;
+        border-radius: 2px;
+    }
+
+    .ondrop-resp{
+        height: 180px;
+    }
+
+    .usecasedrop{
+        display: none;
+    }
+
+    .usecase-resp{
+        display: block;
+    }
+
+    .usecasedrop ul{
+        border: 1px solid #c7c7c7;
+        border-radius: 13px;
+    }
+
+    .innerFeature{
+        background-color: #FFF;
+        border-radius: 13px;
+        font-family: 'Poppins';
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    .innerFeature ul{
+        padding-top: 20px;
+    }
+
+    .feature-resp{
+        display: block;
+    }
+
+    .innerFeature ul li{
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .mastName{
+        width: 100%;
+    }
+
+    .mastName h1{
+        font-size: 35px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    .mastName p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .mastButton a{
+        padding: 10px 20px 10px 20px;
+        font-size: 14px;
+    }
+
+    .mastButton > .btn2{
+        margin-left: 10px;
+    }
 }

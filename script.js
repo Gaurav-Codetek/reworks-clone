@@ -45,3 +45,34 @@ function mouseOver2(){
 function mouseOut2(){
     submenu2.style.display = "none";
 }
+
+
+const hamburger = document.querySelector(".ham");
+const menu = document.querySelector(".mobileMenu");
+const MobNav = document.querySelector(".mobileNav");
+const innerdrop = document.querySelector(".innerdrop");
+const ondrop = document.querySelector(".ondrop");
+const usecasedrop = document.querySelector(".usecasedrop");
+const usecases = document.querySelector(".useCases");
+const feature = document.querySelector(".ondrop2");
+const innerFeature = document.querySelector(".innerFeature");
+
+hamburger.addEventListener('click', ()=>{
+    menu.classList.toggle('opac');
+    MobNav.classList.toggle('nav-resp');
+    
+})
+
+ondrop.addEventListener('click', ()=>{
+    innerdrop.classList.toggle('inner-resp');
+    MobNav.classList.toggle('inner-nav-resp');
+})
+
+usecases.addEventListener('click', ()=>{
+    usecasedrop.classList.toggle('usecase-resp');
+})
+
+feature.addEventListener('click', ()=>{
+    innerFeature.classList.toggle('feature-resp');
+    MobNav.classList.toggle('inner-nav-resp');
+})

@@ -217,7 +217,62 @@ section{
     width: 57%;
 }
 
+.main{
+    margin-top: 150px;
+}
+.mainHead h1{
+    color: rgb(16, 36, 101);
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 42px;
+    line-height: 54px;
+    margin-bottom: 70px;
+}
 
+.cards{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.space{
+    width: 3%;
+}
+
+.card{
+    width: 22.75%;
+    padding: 35px;
+    box-shadow: 0px 6px 15px -3px #e7e7e7;
+    border-radius: 10px;
+    border-bottom: 3px solid #FFF;
+    outline-width: 2px;
+}
+
+.card:hover{
+    border-bottom:3px solid #B739D6;
+}
+
+.cardImg img{
+    height: 180px;
+    width: 180px;
+}
+
+.cardHead h1{
+    text-align: center;
+    color: rgb(16, 36, 101);
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardContent p{
+    text-align: center;
+    color: rgb(108,132,147);
+    font-family: 'Roboto';
+    line-height: 30.08px;
+}
 
 
 @media only screen and (max-width: 1090px){

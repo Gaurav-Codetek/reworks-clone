@@ -280,6 +280,10 @@ section{
         height: auto;
     }
 
+    .inner-nav-resp2{
+        height: auto;
+    }
+
     .mobileMenu{
         opacity: 0;
         display: none;
@@ -412,6 +416,10 @@ section{
     }
 
     nav{
+        display: none;
+    }
+
+    section{
         display: none;
     }
 

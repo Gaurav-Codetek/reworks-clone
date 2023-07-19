@@ -74,5 +74,5 @@ usecases.addEventListener('click', ()=>{
 
 feature.addEventListener('click', ()=>{
     innerFeature.classList.toggle('feature-resp');
-    MobNav.classList.toggle('inner-nav-resp');
+    MobNav.classList.toggle('inner-nav-resp2');
 })

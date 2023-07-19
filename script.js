@@ -58,7 +58,10 @@ const feature = document.querySelector(".ondrop2");
 const innerFeature = document.querySelector(".innerFeature");
 
 hamburger.addEventListener('click', ()=>{
-    menu.classList.toggle('opac');
+    setTimeout(function(){
+        menu.classList.toggle('opac');
+    },400)
+    
     MobNav.classList.toggle('nav-resp');
     
 })

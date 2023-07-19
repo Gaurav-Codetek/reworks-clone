@@ -269,7 +269,7 @@ section{
         background-color: #7682F4;
         padding-top: 30px;
         height: 120px;
-        transition: height 0.8s;
+        transition: height 0.5s;
     }
 
     .nav-resp{
@@ -285,7 +285,7 @@ section{
     }
 
     .mobileMenu{
-        opacity: 0;
+        opacity: 0.2;
         display: none;
     }
 
@@ -416,10 +416,6 @@ section{
     }
 
     nav{
-        display: none;
-    }
-
-    section{
         display: none;
     }
 

@@ -60,7 +60,7 @@ const innerFeature = document.querySelector(".innerFeature");
 hamburger.addEventListener('click', ()=>{
     setTimeout(function(){
         menu.classList.toggle('opac');
-    },400)
+    },200)
     
     MobNav.classList.toggle('nav-resp');
     

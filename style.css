@@ -498,4 +498,24 @@ section{
     .mastButton > .btn2{
         margin-left: 10px;
     }
+
+    .cards{
+        display: block;
+        margin: auto;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .cardImg img{
+        padding: 20px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .space{
+        width: 100%;
+        padding: 20px;
+    }
 }

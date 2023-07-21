@@ -255,7 +255,21 @@ section{
 }
 
 .card3{
-    width: 30.533%;
+    width: 31.467%;
+}
+
+.cardImg3{
+    height: 200px;
+    width: 200px;
+}
+
+.card4{
+    width: 48.6%;
+}
+
+.cardImg4 img{
+    height: 300px;
+    width: 450px;
 }
 
 .card:hover{
@@ -391,6 +405,49 @@ section{
 .stripBtn a:hover{
     background-color: transparent;
     color: #FFF;
+}
+
+.kittingImg{
+    width: 48%;
+    height: 530px;
+    width: 530px;
+    position: relative;
+    margin: 40px;
+}
+
+.kittingImg img{
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    height: 650px;
+    width: 350px;
+}
+
+.kittingHead{
+    margin-top: 150px;
+}
+
+.kittingHead img{
+    margin-bottom: 20px;
+}
+
+.kitting{
+    margin-bottom: 200px;
+}
+
+.testimonials{
+    border: 1px solid #BD32D3;
+    max-width: 800px;
+    border-radius: 13px;
+    box-shadow: 0px 6px 10px 0px #cfcfcf;
+    margin-bottom: 100px;
+}
+
+.testimonials p{
+    padding: 60px 50px 30px 50px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 28.8px;
 }
 
 
@@ -691,6 +748,11 @@ section{
     .kittingImg{
         height: 600px;
         width: auto;
+    }
+
+    .kittingHead{
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
     
 }

@@ -454,6 +454,117 @@ section{
     line-height: 28.8px;
 }
 
+footer{
+    background: linear-gradient(45deg, #B739D6, #7682F4);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footerGrid{
+    display: flex;
+}
+
+.swagPlatform h1{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.swagPlatform ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.swagPlatform ul li{
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #FFF;
+    padding: 2px;
+    font-weight: 500;
+}
+
+.company h1{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.company ul{
+    margin-left: 10px;
+    list-style: none;
+}
+
+.company ul li{
+    font-family: 'Poppins';
+    font-size: 15px;
+    padding: 2px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.extraPad img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.full{
+    width: 45%;
+}
+
+.content p{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 28.8px;
+    width: 60%;
+}
+
+.swagPlatform{
+    width: 20%;
+}
+
+.company{
+    width: 35%;
+}
+
+.social{
+    display: flex;
+}
+
+.social img{
+    height: 50px;
+    width: 50px;
+}
+
+.twitter, .insta, .linkedin{
+    padding:20px 0px 20px 20px;
+}
+
+.endFooter{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.endFooter a{
+    width: 15%;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.endFooter p{
+    width: 90%;
+    text-align: right;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
 
 @media only screen and (max-width: 1090px){
     .logo{
@@ -791,6 +902,44 @@ section{
     .testimonials p{
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .footerGrid{
+        display: block;
+    }
+
+    .full{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .content p{
+        width: 100%;
+    }
+
+    .swagPlatform{
+        width: 100%;
+    }
+
+    .company{
+        width: 100%;
+    }
+
+    .endFooter{
+        display: block;
+        margin: 20px;
+    }
+    .endFooter a{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .endFooter p{
+        width: 100%;
+    }
+
+    footer{
+        padding-top: 30px;
     }
 
     

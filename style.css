@@ -972,4 +972,20 @@ footer{
         height: 360px;
         width: 320px;
     }
+
+    .kittingImg img{
+        position: absolute;
+        height: 500px;
+        width: 300px;
+        top: -100px;
+        left: 30px;
+    }
+
+    .kittingImg{
+        position: relative;
+        height: 350px;
+        width: 350px;
+        margin: 180px 0px 50px 0px;
+
+    }
 }

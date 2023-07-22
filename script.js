@@ -53,7 +53,7 @@ const MobNav = document.querySelector(".mobileNav");
 const innerdrop = document.querySelector(".innerdrop");
 const ondrop = document.querySelector(".ondrop");
 const usecasedrop = document.querySelector(".usecasedrop");
-const usecases = document.querySelector(".useCases");
+const Mobusecases = document.querySelector(".MobuseCases");
 const feature = document.querySelector(".ondrop2");
 const innerFeature = document.querySelector(".innerFeature");
 
@@ -71,7 +71,7 @@ ondrop.addEventListener('click', ()=>{
     MobNav.classList.toggle('inner-nav-resp');
 })
 
-usecases.addEventListener('click', ()=>{
+Mobusecases.addEventListener('click', ()=>{
     usecasedrop.classList.toggle('usecase-resp');
 })
 

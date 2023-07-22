@@ -805,6 +805,16 @@ footer{
         width: 300px;
     }
 
+    .cardImg5 img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .cardContent p{
+        font-size: 14px;
+        line-height: 26.32px;
+    }
+
     .space{
         width: 100%;
         padding: 20px;
@@ -849,6 +859,10 @@ footer{
         width: 400px;
     }
 
+    .stripHead{
+        width: 100%;
+    }
+
     .stripContent{
         display: block;
         padding: 20px 20px 40px 20px;
@@ -856,13 +870,15 @@ footer{
 
     .stripBtn{
         padding-top: 20px;
-        width: 45%;
+        width: 35%;
     }
 
     .stripBtn a{
+        font-weight: bold;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0.7rem 0.3rem;
     }
 
     .kittingImg img{

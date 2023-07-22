@@ -359,6 +359,10 @@ section{
     margin-bottom: 80px;
 }
 
+.stripMobile{
+    margin-bottom: 0px;
+}
+
 .stripContent{
     display: flex;
 }
@@ -741,7 +745,13 @@ section{
 
     .stripBtn{
         padding-top: 20px;
-        width: 100%;
+        width: 45%;
+    }
+
+    .stripBtn a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .kittingImg img{
@@ -782,4 +792,6 @@ section{
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    
 }

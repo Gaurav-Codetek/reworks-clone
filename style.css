@@ -944,3 +944,16 @@ footer{
 
     
 }
+
+@media only screen and (max-width: 399px){
+
+    .empImg{
+        height: 360px;
+        width: 360px;
+    }
+
+    .empImg img{
+        height: 360px;
+        width: 320px;
+    }
+}

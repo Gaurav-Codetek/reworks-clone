@@ -481,13 +481,13 @@ footer{
     font-size: 15px;
     color: #FFF;
     padding: 2px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .company h1{
     font-size: 20px;
     font-family: 'Poppins';
-    font-weight: bolder;
+    font-weight: 700;
     color: #FFFFFF;
 }
 
@@ -501,7 +501,7 @@ footer{
     font-size: 15px;
     padding: 2px;
     color: #FFF;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .extraPad img{
@@ -553,7 +553,7 @@ footer{
     text-decoration: none;
     color: #FFF;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Poppins';
 }
 

@@ -632,7 +632,7 @@ footer{
     }
 
     .mobileMenu{
-        opacity: 0.2;
+        opacity: 0;
         display: none;
     }
 

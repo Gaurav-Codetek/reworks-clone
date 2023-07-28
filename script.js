@@ -58,9 +58,21 @@ const feature = document.querySelector(".ondrop2");
 const innerFeature = document.querySelector(".innerFeature");
 
 hamburger.addEventListener('click', ()=>{
-    setTimeout(function(){
-        menu.classList.toggle('opac');
-    },200)
+    
+        if(menu.style.display === "block" && menu.style.opacity === "1"){
+            
+            menu.style.display = "none";
+            menu.style.opacity = "0"
+        
+        }
+
+        else{
+            setTimeout(function(){
+            menu.style.display = "block";
+            menu.style.opacity = "1";
+        },200)
+        }
+    
     
     MobNav.classList.toggle('nav-resp');
     
